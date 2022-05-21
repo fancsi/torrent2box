@@ -25,7 +25,8 @@
   ],
   "options_page": "options.html",
   "permissions": [
-    "storage"
+    "storage",
+    "notifications"
   ],
   "web_accessible_resources": [
     {
