@@ -35,7 +35,6 @@ export abstract class Torrent {
 
             // Success
             if (/.*addTorrentSuccess.*/.exec(result) || /.*result\[\]=Success.*/.exec(response.url)) {
-                ChromeNotify.createNotification(IconType.Success, torrentName);
                 return;
             }
 
